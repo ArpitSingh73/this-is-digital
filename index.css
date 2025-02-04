@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: poppins; */
 }
 
 body,
@@ -173,7 +172,6 @@ html {
 #page2 h1 {
   font-size: 3vw;
   font-weight: lighter;
-  /* text-transform: capitalize; */
   width: 50%;
   text-align: center;
   margin: 26px 0;
@@ -244,7 +242,6 @@ html {
   background-color: rgba(0, 0, 0, 0.5);
   justify-content: space-between;
   padding: 30px;
-  /* opacity: 0.5; */
 }
 #page3 div #image-overlay h2 {
   font-size: 2.5vw;
@@ -259,7 +256,6 @@ html {
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
-  /* filter: blur(0.5px); */
 }
 .hover {
   transform: scale(1.03); /* Adjust scale factor as needed */
@@ -270,7 +266,6 @@ html {
   background-color: #000;
   display: flex;
   align-items: center;
-  /* justify-content: space-evenly; */
   gap: 40px;
   flex-direction: column;
   color: #fff;
@@ -281,13 +276,11 @@ html {
   width: 80%;
   height: 50%;
   display: flex;
-  /* align-items: center; */
 }
 
 #footer-top-left {
   width: 40%;
   height: 100%;
-  /* background-color: #ddd7d7; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -307,7 +300,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: aqua; */
 }
 #footer-top-right-child1,
 #footer-top-right-child2,
@@ -315,30 +307,20 @@ html {
 #footer-top-right-child4 {
   width: 25%;
   height: 100%;
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
-  /* align-items: ; */
   justify-content: flex-start;
   padding-top: 20px;
   gap: 18px;
-  /* text-align: left; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 
 #footer-top-right h4 {
-  /* width: 60%; */
-  /* background-color: #222; */
   font-size: 1.8vw;
   text-align: left;
   font-weight: 100;
 }
 #footer-top-right h5 {
-  /* background-color: #222; */
   font-size: 1.1vw;
-  /* width: 70%; */
   font-weight: 100;
   text-align: left;
 }
@@ -375,21 +357,17 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  
   #main {
-  width: 100%;
-  height: 100%;
-  background-color: #ddd7d7;
-  position: relative;
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  gap: 0;
-}
+    width: 100%;
+    height: 100%;
+    background-color: #ddd7d7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
 
-#nav {
-    /* display: none; */
-/*     background-color: aquamarine; */
+  #nav {
     height: 100px; /* Reduced height for mobile */
     padding: 0 0px; /* Reduced padding */
     width: 100%; /* Full width on smaller screens */
@@ -423,20 +401,16 @@ html {
   #nav #part2 a:nth-last-child(1) h5 {
     font-weight: normal; /* Adjusted font weight for better readability */
   }
- #main #page1 {
-  /* margin-top: 10px; */
-  margin-bottom: 0px;
-  /* background-color: brown; */
-  width: 100%;
-  height: auto;
-  margin-top: 0px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 100px;
-  /* align-items: center; */
-  /* justify-content: center; */
-}
+  #main #page1 {
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+  }
 
   #main #page1 h1 {
     font-size: 7vw;
@@ -484,12 +458,10 @@ html {
     width: 80%;
     font-size: 3vw;
     text-align: center;
-    /* position: relative; */
   }
   #page2 h1 {
     font-size: 5vw;
     font-weight: lighter;
-    /* text-transform: capitalize; */
     width: 80%;
     text-align: center;
     margin: 20px 0;
@@ -527,34 +499,32 @@ html {
     justify-content: space-evenly;
   }
   #page3 div #image-overlay {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  color: #faf8f8;
-  background-color: rgba(0, 0, 0, 0.5);
-  justify-content: space-between;
-  padding: 50px;
-  /* opacity: 0.5; */
-}
-#page3 div #image-overlay h2 {
-  font-size: 7vw;
-  font-weight: 100;
-}
-#page3 div #image-overlay h1 {
-  font-size: 7vw;
-  font-weight: 100;
-}
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #faf8f8;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    padding: 50px;
+  }
+  #page3 div #image-overlay h2 {
+    font-size: 7vw;
+    font-weight: 100;
+  }
+  #page3 div #image-overlay h1 {
+    font-size: 7vw;
+    font-weight: 100;
+  }
 
   #footer {
     width: 100%;
     height: 70vh;
     background-color: #000;
     display: flex;
-    /* justify-content: space-evenly; */
     gap: 30px;
     justify-content: center;
     flex-direction: column;
@@ -573,7 +543,6 @@ html {
   #footer-top-left {
     width: 100%;
     height: 40%;
-    /* background-color: #ddd7d7; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -581,10 +550,6 @@ html {
 
   #footer-top-left h1 {
     display: none;
-    /* font-size: 4vw;
-  font-weight: 100;
-  width: 52%; */
-    /* background-color: #fff; */
   }
 
   #footer-top-right {
@@ -600,12 +565,10 @@ html {
   #footer-top-right-child4 {
     width: 25%;
     height: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* padding-top: 20px; */
     gap: 13px;
   }
 
@@ -625,7 +588,6 @@ html {
     flex-direction: column;
     gap: 12px;
     align-items: center;
-    /* justify-content: space-evenly; */
   }
 
   #footer-top-right-child4 img {

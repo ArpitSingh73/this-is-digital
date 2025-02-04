@@ -389,7 +389,7 @@ html {
 
 #nav {
     /* display: none; */
-    background-color: aquamarine;
+/*     background-color: aquamarine; */
     height: 100px; /* Reduced height for mobile */
     padding: 0 0px; /* Reduced padding */
     width: 100%; /* Full width on smaller screens */
